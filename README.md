@@ -1,7 +1,7 @@
 
 # ˗ˏˋ ★ Win11 Customizer Suite ★ ˎˊ˗
 
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/DuckyOnQuack-999/Win11-Customizer-Suite/total)
 
@@ -12,7 +12,7 @@
 ![Shell Scripts](https://img.shields.io/badge/shell_scripts-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) | ![Assembly Scripts](https://img.shields.io/badge/assembly%20scripts-%23000000.svg?style=flat&logo=assemblyscript&logoColor=white) | ![Type Scripts](https://img.shields.io/badge/type%20scripts-%23007ACC.svg?style=&logo=typescript&logoColor=white)
 
 
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
 
 Transform Your Windows 11 with Win11 Customizer Suite! 🚀
 
@@ -25,7 +25,7 @@ Unleash the full potential of Windows 11 with Win11 Customizer Suite – your ul
 
 Whether you’re aiming for a sleek look or top-notch performance, Win11 Customizer Suite has you covered. Dive in and start transforming your Windows 11 experience today!
 
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
 
 ## Features
 - **Theme Customization:** Change system themes, icons, and visual styles.
@@ -33,7 +33,7 @@ Whether you’re aiming for a sleek look or top-notch performance, Win11 Customi
 - **System Tweaks:** Modify hidden settings and enhance functionality.
 - 
 
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
 
 ## Features
 - **Theme Customization:** Change system themes, icons, and visual styles.
@@ -41,7 +41,7 @@ Whether you’re aiming for a sleek look or top-notch performance, Win11 Customi
 - **System Tweaks:** Modify hidden settings and enhance functionality.
 - 
 
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
 
 ## Installation
 
@@ -50,4 +50,4 @@ Whether you’re aiming for a sleek look or top-notch performance, Win11 Customi
    ```bash
    git clone https://github.com/yourusername/Win11-Customizer-Suite.git
    
-꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦  ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
+꒷꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦ ꒦︶︶︶︶︶꒷꒦︶︶︶︶︶꒦꒷
