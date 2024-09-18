@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableFullTrustStartupTasks"=dword:00000002
+"EnableUwpStartupTasks"=dword:00000002
+"SupportFullTrustStartupTasks"=dword:00000001
+"SupportUwpStartupTasks"=dword:00000001
