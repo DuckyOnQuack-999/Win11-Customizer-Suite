@@ -142,9 +142,9 @@ Keep your system updated with one-click installations for .NET, PowerShell modul
 
 To install the **Win11 Customizer Suite**, follow these simple steps:
 
-```bash
+```git
 # Clone the repository 📂
-git clone https://github.com/your-repo-url
+gh repo clone DuckyOnQuack-999/Win11-Customizer-Suite
 
 # Navigate to the project folder 📁
 cd Win11-Customizer-Suite
