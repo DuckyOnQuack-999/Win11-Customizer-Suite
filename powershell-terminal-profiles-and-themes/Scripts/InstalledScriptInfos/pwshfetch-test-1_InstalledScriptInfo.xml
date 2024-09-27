@@ -1,0 +1,193 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">pwshfetch-test-1</S>
+      <S N="Version">2.4.1</S>
+      <S N="Type">Script</S>
+      <S N="Description">Winfetch is a command-line system information utility for Windows written in PowerShell.</S>
+      <S N="Author">Kied Llaentenn and contributers</S>
+      <S N="CompanyName">susheel1234</S>
+      <Nil N="Copyright" />
+      <Obj N="PublishedDate" RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+      </Obj>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2024-08-29T07:57:19.5557315-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/kiedtl/winfetch/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/kiedtl/winfetch</URI>
+      <URI N="IconUri">https://lptstr.github.io/lptstr-images/proj/winfetch/logo.png</URI>
+      <Obj N="Tags" RefId="4">
+        <TN RefId="3">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>neofetch</S>
+          <S>screenfetch</S>
+          <S>system-info</S>
+          <S>commandline</S>
+          <S>PSScript</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="4">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="3" />
+              <LST>
+                <S>get_percent_bar</S>
+                <S>get_level_info</S>
+                <S>truncate_line</S>
+                <S>info_blank</S>
+                <S>info_colorbar</S>
+                <S>info_os</S>
+                <S>info_motherboard</S>
+                <S>info_title</S>
+                <S>info_dashes</S>
+                <S>info_computer</S>
+                <S>info_kernel</S>
+                <S>info_uptime</S>
+                <S>info_resolution</S>
+                <S>info_terminal</S>
+                <S>info_theme</S>
+                <S>info_cpu</S>
+                <S>info_gpu</S>
+                <S>info_cpu_usage</S>
+                <S>info_memory</S>
+                <S>info_disk</S>
+                <S>to_units</S>
+                <S>info_pwsh</S>
+                <S>info_ps_pkgs</S>
+                <S>info_pkgs</S>
+                <S>info_battery</S>
+                <S>info_locale</S>
+                <S>info_weather</S>
+                <S>info_local_ip</S>
+                <S>info_public_ip</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="3" />
+              <LST>
+                <S>get_percent_bar</S>
+                <S>get_level_info</S>
+                <S>truncate_line</S>
+                <S>info_blank</S>
+                <S>info_colorbar</S>
+                <S>info_os</S>
+                <S>info_motherboard</S>
+                <S>info_title</S>
+                <S>info_dashes</S>
+                <S>info_computer</S>
+                <S>info_kernel</S>
+                <S>info_uptime</S>
+                <S>info_resolution</S>
+                <S>info_terminal</S>
+                <S>info_theme</S>
+                <S>info_cpu</S>
+                <S>info_gpu</S>
+                <S>info_cpu_usage</S>
+                <S>info_memory</S>
+                <S>info_disk</S>
+                <S>to_units</S>
+                <S>info_pwsh</S>
+                <S>info_ps_pkgs</S>
+                <S>info_pkgs</S>
+                <S>info_battery</S>
+                <S>info_locale</S>
+                <S>info_weather</S>
+                <S>info_local_ip</S>
+                <S>info_public_ip</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="3" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="8" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="8" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="8" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="9">
+        <TNRef RefId="3" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2/items/psscript</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TNRef RefId="1" />
+        <MS>
+          <S N="description">Winfetch is a command-line system information utility for Windows written in PowerShell.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">8335</S>
+          <S N="downloadCount">12296</S>
+          <S N="packageSize">12074</S>
+          <S N="published">Wednesday, May 4 4:13:56 PM -05:00</S>
+          <S N="created">Wednesday, May 4 4:13:56 PM -05:00</S>
+          <S N="lastEdited">Wednesday, November 23 3:17:58 AM -06:00</S>
+          <S N="lastUpdated">Thursday, August 29 10:20:00 AM -05:00</S>
+          <S N="tags">neofetch screenfetch system-info commandline PSScript PSFunction_get_percent_bar PSCommand_get_percent_bar PSFunction_get_level_info PSCommand_get_level_info PSFunction_truncate_line PSCommand_truncate_line PSFunction_info_blank PSCommand_info_blank PSFunction_info_colorbar PSCommand_info_colorbar PSFunction_info_os PSCommand_info_os PSFunction_info_motherboard PSCommand_info_motherboard PSFunction_info_title PSCommand_info_title PSFunction_info_dashes PSCommand_info_dashes PSFunction_info_computer PSCommand_info_computer PSFunction_info_kernel PSCommand_info_kernel PSFunction_info_uptime PSCommand_info_uptime PSFunction_info_resolution PSCommand_info_resolution PSFunction_info_terminal PSCommand_info_terminal PSFunction_info_theme PSCommand_info_theme PSFunction_info_cpu PSCommand_info_cpu PSFunction_info_gpu PSCommand_info_gpu PSFunction_info_cpu_usage PSCommand_info_cpu_usage PSFunction_info_memory PSCommand_info_memory PSFunction_info_disk PSCommand_info_disk PSFunction_to_units PSCommand_to_units PSFunction_info_pwsh PSCommand_info_pwsh PSFunction_info_ps_pkgs PSCommand_info_ps_pkgs PSFunction_info_pkgs PSCommand_info_pkgs PSFunction_info_battery PSCommand_info_battery PSFunction_info_locale PSCommand_info_locale PSFunction_info_weather PSCommand_info_weather PSFunction_info_local_ip PSCommand_info_local_ip PSFunction_info_public_ip PSCommand_info_public_ip PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2024-08-29T10:20:00Z</S>
+          <S N="NormalizedVersion">2.4.1</S>
+          <S N="Authors">Kied Llaentenn and contributers</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Script</S>
+          <S N="FileList">pwshfetch-test-1.nuspec|pwshfetch-test-1.ps1</S>
+          <S N="GUID">a9a07f39-87e7-4164-9395-27cb54d86656</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\cl234\Documents\PowerShell\Scripts</S>
+    </MS>
+  </Obj>
+</Objs>

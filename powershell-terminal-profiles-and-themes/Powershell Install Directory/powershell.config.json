@@ -1,0 +1,18 @@
+{
+  "Microsoft.PowerShell:ExecutionPolicy": "RemoteSigned",
+  "ExperimentalFeatures": [
+    "PSCommandNotFoundSuggestion",
+    "PSCommandWithArgs",
+    "PSFeedbackProvider",
+    "PSLoadAssemblyFromNativeCode",
+    "PSModuleAutoLoadSkipOfflineFiles",
+    "PSNativeWindowsTildeExpansion",
+    "PSSubsystemPluginModel",
+    "PSRedirectToVariable"
+  ],
+  "WindowsPowerShellCompatibilityModuleDenyList": [
+    "",
+    "",
+    ""
+  ]
+}

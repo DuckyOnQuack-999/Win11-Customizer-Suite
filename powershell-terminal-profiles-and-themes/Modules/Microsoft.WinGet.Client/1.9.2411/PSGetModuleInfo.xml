@@ -1,0 +1,176 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.WinGet.Client</S>
+      <Version N="Version">1.9.2411</Version>
+      <S N="Type">Module</S>
+      <S N="Description">PowerShell Module for the Windows Package Manager Client.</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">WinGetPowerShell</S>
+      <S N="Copyright">(c) Microsoft Corporation. All rights reserved.</S>
+      <Obj N="PublishedDate" RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+      </Obj>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2024-09-19T05:17:58.8104231-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://github.com/microsoft/winget-cli</URI>
+      <URI N="IconUri">https://aka.ms/winget-icon</URI>
+      <Obj N="Tags" RefId="4">
+        <TN RefId="3">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSEdition_Desktop</S>
+          <S>PSEdition_Core</S>
+          <S>Windows</S>
+          <S>WindowsPackageManager</S>
+          <S>WinGet</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="4">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="3" />
+              <LST>
+                <S>Get-WinGetVersion</S>
+                <S>Find-WinGetPackage</S>
+                <S>Get-WinGetPackage</S>
+                <S>Get-WinGetSource</S>
+                <S>Install-WinGetPackage</S>
+                <S>Uninstall-WinGetPackage</S>
+                <S>Update-WinGetPackage</S>
+                <S>Get-WinGetUserSettings</S>
+                <S>Set-WinGetUserSettings</S>
+                <S>Test-WinGetUserSettings</S>
+                <S>Assert-WinGetPackageManager</S>
+                <S>Repair-WinGetPackageManager</S>
+                <S>Enable-WinGetSetting</S>
+                <S>Disable-WinGetSetting</S>
+                <S>Get-WinGetSettings</S>
+                <S>Add-WinGetSource</S>
+                <S>Remove-WinGetSource</S>
+                <S>Reset-WinGetSource</S>
+                <S>Export-WinGetPackage</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="3" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="3" />
+              <LST>
+                <S>Get-WinGetVersion</S>
+                <S>Find-WinGetPackage</S>
+                <S>Get-WinGetPackage</S>
+                <S>Get-WinGetSource</S>
+                <S>Install-WinGetPackage</S>
+                <S>Uninstall-WinGetPackage</S>
+                <S>Update-WinGetPackage</S>
+                <S>Get-WinGetUserSettings</S>
+                <S>Set-WinGetUserSettings</S>
+                <S>Test-WinGetUserSettings</S>
+                <S>Assert-WinGetPackageManager</S>
+                <S>Repair-WinGetPackageManager</S>
+                <S>Enable-WinGetSetting</S>
+                <S>Disable-WinGetSetting</S>
+                <S>Get-WinGetSettings</S>
+                <S>Add-WinGetSource</S>
+                <S>Remove-WinGetSource</S>
+                <S>Reset-WinGetSource</S>
+                <S>Export-WinGetPackage</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="9">
+        <TNRef RefId="3" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TNRef RefId="1" />
+        <MS>
+          <S N="copyright">(c) Microsoft Corporation. All rights reserved.</S>
+          <S N="description">PowerShell Module for the Windows Package Manager Client.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">6694688</S>
+          <S N="downloadCount">35415113</S>
+          <S N="packageSize">24601595</S>
+          <S N="published">Thursday, August 29 2:13:58 AM -05:00</S>
+          <S N="created">Thursday, August 29 2:13:58 AM -05:00</S>
+          <S N="lastUpdated">Thursday, September 19 10:10:00 AM -05:00</S>
+          <S N="tags">PSEdition_Desktop PSEdition_Core Windows WindowsPackageManager WinGet PSModule PSCmdlet_Get-WinGetVersion PSCommand_Get-WinGetVersion PSCmdlet_Find-WinGetPackage PSCommand_Find-WinGetPackage PSCmdlet_Get-WinGetPackage PSCommand_Get-WinGetPackage PSCmdlet_Get-WinGetSource PSCommand_Get-WinGetSource PSCmdlet_Install-WinGetPackage PSCommand_Install-WinGetPackage PSCmdlet_Uninstall-WinGetPackage PSCommand_Uninstall-WinGetPackage PSCmdlet_Update-WinGetPackage PSCommand_Update-WinGetPackage PSCmdlet_Get-WinGetUserSettings PSCommand_Get-WinGetUserSettings PSCmdlet_Set-WinGetUserSettings PSCommand_Set-WinGetUserSettings PSCmdlet_Test-WinGetUserSettings PSCommand_Test-WinGetUserSettings PSCmdlet_Assert-WinGetPackageManager PSCommand_Assert-WinGetPackageManager PSCmdlet_Repair-WinGetPackageManager PSCommand_Repair-WinGetPackageManager PSCmdlet_Enable-WinGetSetting PSCommand_Enable-WinGetSetting PSCmdlet_Disable-WinGetSetting PSCommand_Disable-WinGetSetting PSCmdlet_Get-WinGetSettings PSCommand_Get-WinGetSettings PSCmdlet_Add-WinGetSource PSCommand_Add-WinGetSource PSCmdlet_Remove-WinGetSource PSCommand_Remove-WinGetSource PSCmdlet_Reset-WinGetSource PSCommand_Reset-WinGetSource PSCmdlet_Export-WinGetPackage PSCommand_Export-WinGetPackage PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2024-09-19T10:10:00Z</S>
+          <S N="NormalizedVersion">1.9.2411</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.WinGet.Client.nuspec|net48\SharedDependencies\x86\WindowsPackageManager.dll|Format.ps1xml|net48\SharedDependencies\x86\winrtact.dll|Microsoft.WinGet.Client.Cmdlets.dll-Help.xml|net6.0-windows10.0.22000.0\Microsoft.WinGet.Client.Cmdlets.dll|net6.0-windows10.0.22000.0\DirectDependencies\Microsoft.WinGet.Client.Engine.dll|Microsoft.WinGet.Client.psd1|net6.0-windows10.0.22000.0\SharedDependencies\Microsoft.Windows.SDK.NET.dll|NOTICE.txt|net6.0-windows10.0.22000.0\SharedDependencies\Microsoft.WinGet.SharedLib.dll|net48\Microsoft.WinGet.Client.Cmdlets.dll|net6.0-windows10.0.22000.0\SharedDependencies\Newtonsoft.Json.dll|net48\DirectDependencies\Microsoft.WinGet.Client.Engine.dll|net6.0-windows10.0.22000.0\SharedDependencies\Octokit.dll|net48\SharedDependencies\Microsoft.Win32.Registry.dll|net6.0-windows10.0.22000.0\SharedDependencies\Semver.dll|net48\SharedDependencies\Microsoft.WinGet.SharedLib.dll|net6.0-windows10.0.22000.0\SharedDependencies\WinRT.Runtime.dll|net48\SharedDependencies\Newtonsoft.Json.dll|net6.0-windows10.0.22000.0\SharedDependencies\arm64\Microsoft.Management.Deployment.dll|net48\SharedDependencies\Octokit.dll|net6.0-windows10.0.22000.0\SharedDependencies\arm64\Microsoft.Management.Deployment.winmd|net48\SharedDependencies\Semver.dll|net6.0-windows10.0.22000.0\SharedDependencies\arm64\WindowsPackageManager.dll|net48\SharedDependencies\arm64\Microsoft.Management.Deployment.dll|net6.0-windows10.0.22000.0\SharedDependencies\arm64\winrtact.dll|net48\SharedDependencies\arm64\Microsoft.Management.Deployment.winmd|net6.0-windows10.0.22000.0\SharedDependencies\x64\Microsoft.Management.Deployment.dll|net48\SharedDependencies\arm64\WindowsPackageManager.dll|net6.0-windows10.0.22000.0\SharedDependencies\x64\Microsoft.Management.Deployment.winmd|net48\SharedDependencies\arm64\winrtact.dll|net6.0-windows10.0.22000.0\SharedDependencies\x64\WindowsPackageManager.dll|net48\SharedDependencies\x64\Microsoft.Management.Deployment.dll|net6.0-windows10.0.22000.0\SharedDependencies\x64\winrtact.dll|net48\SharedDependencies\x64\Microsoft.Management.Deployment.winmd|net6.0-windows10.0.22000.0\SharedDependencies\x86\Microsoft.Management.Deployment.dll|net48\SharedDependencies\x64\WindowsPackageManager.dll|net6.0-windows10.0.22000.0\SharedDependencies\x86\Microsoft.Management.Deployment.winmd|net48\SharedDependencies\x64\winrtact.dll|net6.0-windows10.0.22000.0\SharedDependencies\x86\WindowsPackageManager.dll|net48\SharedDependencies\x86\Microsoft.Management.Deployment.dll|net6.0-windows10.0.22000.0\SharedDependencies\x86\winrtact.dll|net48\SharedDependencies\x86\Microsoft.Management.Deployment.winmd</S>
+          <S N="GUID">e11157e2-cd24-4250-83b8-c6654ea4926a</S>
+          <S N="PowerShellVersion">5.1.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\cl234\Documents\PowerShell\Modules\Microsoft.WinGet.Client\1.9.2411</S>
+    </MS>
+  </Obj>
+</Objs>

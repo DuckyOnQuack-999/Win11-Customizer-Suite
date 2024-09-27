@@ -1,0 +1,21 @@
+{
+  "name": "Monokai Seti Dark",
+  "foreground": "#F8F8F2",
+  "background": "#151718",
+  "black": "#151718",
+  "brightBlack": "#625e4c",
+  "blue": "#9D65FF",
+  "brightBlue": "#9D65FF",
+  "cyan": "#58D1EB",
+  "brightCyan": "#58D1EB",
+  "green": "#98F424",
+  "brightGreen": "#98F424",
+  "purple": "#F4005F",
+  "brightPurple": "#F4005F",
+  "red": "#F4005F",
+  "brightRed": "#F4005F",
+  "white": "#F8F8F2",
+  "brightWhite": "#f6f6ef",
+  "yellow": "#FA8419",
+  "brightYellow": "#FA8419"
+}

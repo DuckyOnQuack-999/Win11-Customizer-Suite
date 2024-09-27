@@ -1,0 +1,144 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">NuGet</S>
+      <Version N="Version">1.3.3</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Create Nuget repos, Register Repos, Manage Modules and Packages with a single DSC Module.  This Module Exports 5 Resources, Nuget, PSRepo, PackageRepo, Nuget_Module, and Nuget_Package _x000D__x000A_Examples show off all the core functionality as well as support Kitchen integration. _x000D__x000A_View the source @ https://github.com/PowerShellOrg/NuGet to raise issues or modify functionality</S>
+      <S N="Author">Jason</S>
+      <S N="CompanyName">jasonmorgan</S>
+      <S N="Copyright">(c) 2015 Jason. All rights reserved.</S>
+      <Obj N="PublishedDate" RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+      </Obj>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2024-09-25T07:34:48.0558382-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://github.com/PowerShellOrg/NuGet</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="4">
+        <TN RefId="3">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Nuget</S>
+          <S>PowerShellGet</S>
+          <S>Package</S>
+          <S>PackageManager</S>
+          <S>Module</S>
+          <S>DSC</S>
+          <S>PSGallery</S>
+          <S>chocolatey</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="4">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="3" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="3" />
+              <LST>
+                <S>Nuget</S>
+                <S>PSRepo</S>
+                <S>PackageRepo</S>
+                <S>Nuget_Module</S>
+                <S>Nuget_Package</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="3" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TNRef RefId="1" />
+        <MS>
+          <S N="copyright">(c) 2015 Jason. All rights reserved.</S>
+          <S N="description">Create Nuget repos, Register Repos, Manage Modules and Packages with a single DSC Module.  This Module Exports 5 Resources, Nuget, PSRepo, PackageRepo, Nuget_Module, and Nuget_Package _x000D__x000A_Examples show off all the core functionality as well as support Kitchen integration. _x000D__x000A_View the source @ https://github.com/PowerShellOrg/NuGet to raise issues or modify functionality</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5834199</S>
+          <S N="downloadCount">5839495</S>
+          <S N="packageSize">1029095</S>
+          <S N="published">Saturday, October 15 4:34:12 PM -05:00</S>
+          <S N="created">Saturday, October 15 4:34:12 PM -05:00</S>
+          <S N="lastUpdated">Wednesday, September 25 12:30:00 PM -05:00</S>
+          <S N="tags">Nuget PowerShellGet Package PackageManager Module DSC PSGallery chocolatey PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2024-09-25T12:30:00Z</S>
+          <S N="NormalizedVersion">1.3.3</S>
+          <S N="Authors">Jason</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Nuget.nuspec|chefignore|Gemfile|Gemfile.lock|Nuget.psd1|Nuget.psm1|nuget.zip|README.md|tools.psm1|Examples\dsc_configuration.ps1|Templates\web.config|test\integration\default\pester\default.Tests.ps1|test\integration\default\serverspec\default_spec.rb|test\integration\helpers\serverspec\spec_helper.rb</S>
+          <S N="DscResources">Nuget PSRepo PackageRepo Nuget_Module Nuget_Package</S>
+          <S N="GUID">f8ece87b-543c-4aa1-8082-1de98d06b4a2</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="ProcessorArchitecture">None</S>
+          <S N="CompanyName">PowerShell.org</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\cl234\Documents\PowerShell\Modules\NuGet\1.3.3</S>
+    </MS>
+  </Obj>
+</Objs>

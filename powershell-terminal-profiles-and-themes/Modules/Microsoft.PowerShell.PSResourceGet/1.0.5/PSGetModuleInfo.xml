@@ -1,0 +1,187 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.PowerShell.PSResourceGet</S>
+      <Version N="Version">1.0.5</Version>
+      <S N="Type">Module</S>
+      <S N="Description">PowerShell module with commands for discovering, installing, updating and publishing the PowerShell artifacts like Modules, Scripts, and DSC Resources.</S>
+      <S N="Author">Microsoft Corporation</S>
+      <Obj N="CompanyName" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>alerickson</S>
+          <S>anamnavi</S>
+        </LST>
+      </Obj>
+      <S N="Copyright">(c) Microsoft Corporation. All rights reserved.</S>
+      <Obj N="PublishedDate" RefId="2">
+        <TN RefId="2">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+      </Obj>
+      <Obj N="InstalledDate" RefId="3">
+        <DT>2024-09-25T03:30:45.921568-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="4">
+            <TN RefId="3">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://go.microsoft.com/fwlink/?LinkId=829061</URI>
+      <URI N="ProjectUri">https://go.microsoft.com/fwlink/?LinkId=828955</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="5">
+        <TNRef RefId="1" />
+        <LST>
+          <S>PackageManagement</S>
+          <S>PSEdition_Desktop</S>
+          <S>PSEdition_Core</S>
+          <S>Linux</S>
+          <S>Mac</S>
+          <S>Windows</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="6">
+        <TN RefId="4">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Find-PSResource</S>
+                <S>Get-InstalledPSResource</S>
+                <S>Get-PSResourceRepository</S>
+                <S>Get-PSScriptFileInfo</S>
+                <S>Install-PSResource</S>
+                <S>Register-PSResourceRepository</S>
+                <S>Save-PSResource</S>
+                <S>Set-PSResourceRepository</S>
+                <S>New-PSScriptFileInfo</S>
+                <S>Test-PSScriptFileInfo</S>
+                <S>Update-PSScriptFileInfo</S>
+                <S>Publish-PSResource</S>
+                <S>Uninstall-PSResource</S>
+                <S>Unregister-PSResourceRepository</S>
+                <S>Update-PSModuleManifest</S>
+                <S>Update-PSResource</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="9">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Import-PSGetRepository</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="10">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Find-PSResource</S>
+                <S>Get-InstalledPSResource</S>
+                <S>Get-PSResourceRepository</S>
+                <S>Get-PSScriptFileInfo</S>
+                <S>Install-PSResource</S>
+                <S>Register-PSResourceRepository</S>
+                <S>Save-PSResource</S>
+                <S>Set-PSResourceRepository</S>
+                <S>New-PSScriptFileInfo</S>
+                <S>Test-PSScriptFileInfo</S>
+                <S>Update-PSScriptFileInfo</S>
+                <S>Publish-PSResource</S>
+                <S>Uninstall-PSResource</S>
+                <S>Unregister-PSResourceRepository</S>
+                <S>Update-PSModuleManifest</S>
+                <S>Update-PSResource</S>
+                <S>Import-PSGetRepository</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">## 1.0.5_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Update `nuget.config` to use PowerShell packages feed (#1649)_x000D__x000A_- Refactor V2ServerAPICalls and NuGetServerAPICalls to use object-oriented query/filter builder (#1645 Thanks @sean-r-williams!)_x000D__x000A_- Fix unnecessary `and` for version globbing in V2ServerAPICalls (#1644 Thanks again @sean-r-williams!)_x000D__x000A_- Fix requiring `tags` in server response (#1627 Thanks @evelyn-bi!)_x000D__x000A_- Add 10 minute timeout to HTTPClient (#1626)_x000D__x000A_- Fix save script without `-IncludeXml` (#1609, #1614 Thanks @o-l-a-v!)_x000D__x000A_- PAT token fix to translate into HttpClient 'Basic Authorization'(#1599 Thanks @gerryleys!)_x000D__x000A_- Fix incorrect request url when installing from ADO (#1597 Thanks @antonyoni!)_x000D__x000A_- Improved exception handling (#1569)_x000D__x000A_- Ensure that .NET methods are not called in order to enable use in Constrained Language Mode (#1564)_x000D__x000A__x000D__x000A_## 1.0.4.1_x000D__x000A__x000D__x000A_- PSResourceGet packaging update_x000D__x000A_            _x000D__x000A_## 1.0.4_x000D__x000A__x000D__x000A_### Patch_x000D__x000A_- Dependency package updates_x000D__x000A__x000D__x000A_## 1.0.3_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bug fix for null package version in `Install-PSResource`_x000D__x000A_            _x000D__x000A_## 1.0.2_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bug fix for `Update-PSResource` not updating from correct repository (#1549)_x000D__x000A_- Bug fix for creating temp home directory on Unix (#1544)_x000D__x000A_- Bug fix for creating `InstalledScriptInfos` directory when it does not exist (#1542)_x000D__x000A_- Bug fix for `Update-ModuleManifest` throwing null pointer exception (#1538)_x000D__x000A_- Bug fix for `name` property not populating in `PSResourceInfo` object when using `Find-PSResource` with JFrog Artifactory (#1535)_x000D__x000A_- Bug fix for incorrect configuration of requests to JFrog Artifactory v2 endpoints (#1533 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix for determining JFrog Artifactory repositories (#1532 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix for v2 server repositories incorrectly adding script endpoint (1526)_x000D__x000A_- Bug fixes for null references (#1525)_x000D__x000A_- Typo fixes in message prompts in `Install-PSResource` (#1510 Thanks @NextGData!)_x000D__x000A_- Bug fix to add `NormalizedVersion` property to `AdditionalMetadata` only when it exists (#1503 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix to verify whether `Uri` is a UNC path and set respective `ApiVersion` (#1479 Thanks @kborowinski!)_x000D__x000A__x000D__x000A_## 1.0.1_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bugfix to update Unix local user installation paths to be compatible with .NET 7 and .NET 8 (#1464)_x000D__x000A_- Bugfix for Import-PSGetRepository in Windows PowerShell (#1460)_x000D__x000A_- Bugfix for Test-PSScriptFileInfo to be less sensitive to whitespace (#1457)_x000D__x000A_- Bugfix to overwrite rels/rels directory on net472 when extracting nupkg to directory (#1456)_x000D__x000A_- Bugfix to add pipeline by property name support for Name and Repository properties for Find-PSResource (#1451 Thanks @ThomasNieto!)_x000D__x000A__x000D__x000A_## 1.0.0_x000D__x000A__x000D__x000A_### New Features_x000D__x000A_- Add `ApiVersion` parameter for `Register-PSResourceRepository` (#1431)_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Automatically set the ApiVersion to v2 for repositories imported from PowerShellGet (#1430)_x000D__x000A_- Bug fix ADO v2 feed installation failures (#1429)_x000D__x000A_- Bug fix Artifactory v2 endpoint failures (#1428)_x000D__x000A_- Bug fix Artifactory v3 endpoint failures (#1427)_x000D__x000A_- Bug fix `-RequiredResource` silent failures (#1426)_x000D__x000A_- Bug fix for v2 repository returning extra packages for `-Tag` based search with `-Prerelease` (#1405) _x000D__x000A__x000D__x000A_See change log (CHANGELOG.md) at https://github.com/PowerShell/PSResourceGet</S>
+      <Obj N="Dependencies" RefId="11">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="12">
+        <TNRef RefId="2" />
+        <MS>
+          <S N="copyright">(c) Microsoft Corporation. All rights reserved.</S>
+          <S N="description">PowerShell module with commands for discovering, installing, updating and publishing the PowerShell artifacts like Modules, Scripts, and DSC Resources.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">## 1.0.5_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Update `nuget.config` to use PowerShell packages feed (#1649)_x000D__x000A_- Refactor V2ServerAPICalls and NuGetServerAPICalls to use object-oriented query/filter builder (#1645 Thanks @sean-r-williams!)_x000D__x000A_- Fix unnecessary `and` for version globbing in V2ServerAPICalls (#1644 Thanks again @sean-r-williams!)_x000D__x000A_- Fix requiring `tags` in server response (#1627 Thanks @evelyn-bi!)_x000D__x000A_- Add 10 minute timeout to HTTPClient (#1626)_x000D__x000A_- Fix save script without `-IncludeXml` (#1609, #1614 Thanks @o-l-a-v!)_x000D__x000A_- PAT token fix to translate into HttpClient 'Basic Authorization'(#1599 Thanks @gerryleys!)_x000D__x000A_- Fix incorrect request url when installing from ADO (#1597 Thanks @antonyoni!)_x000D__x000A_- Improved exception handling (#1569)_x000D__x000A_- Ensure that .NET methods are not called in order to enable use in Constrained Language Mode (#1564)_x000D__x000A__x000D__x000A_## 1.0.4.1_x000D__x000A__x000D__x000A_- PSResourceGet packaging update_x000D__x000A_            _x000D__x000A_## 1.0.4_x000D__x000A__x000D__x000A_### Patch_x000D__x000A_- Dependency package updates_x000D__x000A__x000D__x000A_## 1.0.3_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bug fix for null package version in `Install-PSResource`_x000D__x000A_            _x000D__x000A_## 1.0.2_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bug fix for `Update-PSResource` not updating from correct repository (#1549)_x000D__x000A_- Bug fix for creating temp home directory on Unix (#1544)_x000D__x000A_- Bug fix for creating `InstalledScriptInfos` directory when it does not exist (#1542)_x000D__x000A_- Bug fix for `Update-ModuleManifest` throwing null pointer exception (#1538)_x000D__x000A_- Bug fix for `name` property not populating in `PSResourceInfo` object when using `Find-PSResource` with JFrog Artifactory (#1535)_x000D__x000A_- Bug fix for incorrect configuration of requests to JFrog Artifactory v2 endpoints (#1533 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix for determining JFrog Artifactory repositories (#1532 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix for v2 server repositories incorrectly adding script endpoint (1526)_x000D__x000A_- Bug fixes for null references (#1525)_x000D__x000A_- Typo fixes in message prompts in `Install-PSResource` (#1510 Thanks @NextGData!)_x000D__x000A_- Bug fix to add `NormalizedVersion` property to `AdditionalMetadata` only when it exists (#1503 Thanks @sean-r-williams!)_x000D__x000A_- Bug fix to verify whether `Uri` is a UNC path and set respective `ApiVersion` (#1479 Thanks @kborowinski!)_x000D__x000A__x000D__x000A_## 1.0.1_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Bugfix to update Unix local user installation paths to be compatible with .NET 7 and .NET 8 (#1464)_x000D__x000A_- Bugfix for Import-PSGetRepository in Windows PowerShell (#1460)_x000D__x000A_- Bugfix for Test-PSScriptFileInfo to be less sensitive to whitespace (#1457)_x000D__x000A_- Bugfix to overwrite rels/rels directory on net472 when extracting nupkg to directory (#1456)_x000D__x000A_- Bugfix to add pipeline by property name support for Name and Repository properties for Find-PSResource (#1451 Thanks @ThomasNieto!)_x000D__x000A__x000D__x000A_## 1.0.0_x000D__x000A__x000D__x000A_### New Features_x000D__x000A_- Add `ApiVersion` parameter for `Register-PSResourceRepository` (#1431)_x000D__x000A__x000D__x000A_### Bug Fixes_x000D__x000A_- Automatically set the ApiVersion to v2 for repositories imported from PowerShellGet (#1430)_x000D__x000A_- Bug fix ADO v2 feed installation failures (#1429)_x000D__x000A_- Bug fix Artifactory v2 endpoint failures (#1428)_x000D__x000A_- Bug fix Artifactory v3 endpoint failures (#1427)_x000D__x000A_- Bug fix `-RequiredResource` silent failures (#1426)_x000D__x000A_- Bug fix for v2 repository returning extra packages for `-Tag` based search with `-Prerelease` (#1405) _x000D__x000A__x000D__x000A_See change log (CHANGELOG.md) at https://github.com/PowerShell/PSResourceGet</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">282785</S>
+          <S N="downloadCount">655384</S>
+          <S N="packageSize">2072222</S>
+          <S N="published">Monday, May 13 8:51:53 PM -05:00</S>
+          <S N="created">Monday, May 13 8:51:53 PM -05:00</S>
+          <S N="lastEdited">Friday, June 7 7:25:22 PM -05:00</S>
+          <S N="lastUpdated">Wednesday, September 25 8:30:00 AM -05:00</S>
+          <S N="tags">PackageManagement PSEdition_Desktop PSEdition_Core Linux Mac Windows PSModule PSCmdlet_Find-PSResource PSCommand_Find-PSResource PSCmdlet_Get-InstalledPSResource PSCommand_Get-InstalledPSResource PSCmdlet_Get-PSResourceRepository PSCommand_Get-PSResourceRepository PSCmdlet_Get-PSScriptFileInfo PSCommand_Get-PSScriptFileInfo PSCmdlet_Install-PSResource PSCommand_Install-PSResource PSCmdlet_Register-PSResourceRepository PSCommand_Register-PSResourceRepository PSCmdlet_Save-PSResource PSCommand_Save-PSResource PSCmdlet_Set-PSResourceRepository PSCommand_Set-PSResourceRepository PSCmdlet_New-PSScriptFileInfo PSCommand_New-PSScriptFileInfo PSCmdlet_Test-PSScriptFileInfo PSCommand_Test-PSScriptFileInfo PSCmdlet_Update-PSScriptFileInfo PSCommand_Update-PSScriptFileInfo PSCmdlet_Publish-PSResource PSCommand_Publish-PSResource PSCmdlet_Uninstall-PSResource PSCommand_Uninstall-PSResource PSCmdlet_Unregister-PSResourceRepository PSCommand_Unregister-PSResourceRepository PSCmdlet_Update-PSModuleManifest PSCommand_Update-PSModuleManifest PSCmdlet_Update-PSResource PSCommand_Update-PSResource PSIncludes_Cmdlet PSFunction_Import-PSGetRepository PSCommand_Import-PSGetRepository PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2024-09-25T08:30:00Z</S>
+          <S N="NormalizedVersion">1.0.5</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.PowerShell.PSResourceGet.nuspec|LICENSE|Microsoft.PowerShell.PSResourceGet.psm1|PSGet.Format.ps1xml|dependencies\Newtonsoft.Json.dll|dependencies\NuGet.Common.dll|dependencies\NuGet.Credentials.dll|dependencies\NuGet.Frameworks.dll|dependencies\NuGet.Packaging.dll|dependencies\NuGet.Protocol.dll|dependencies\System.Buffers.dll|dependencies\System.Numerics.Vectors.dll|dependencies\System.Text.Encodings.Web.dll|dependencies\System.Text.Json.dll|dependencies\System.Threading.Tasks.Extensions.dll|dependencies\System.ValueTuple.dll|Microsoft.PowerShell.PSResourceGet.dll|Microsoft.PowerShell.PSResourceGet.psd1|Notice.txt|dependencies\Microsoft.Bcl.AsyncInterfaces.dll|dependencies\NuGet.Commands.dll|dependencies\NuGet.Configuration.dll|dependencies\NuGet.DependencyResolver.Core.dll|dependencies\NuGet.LibraryModel.dll|dependencies\NuGet.ProjectModel.dll|dependencies\NuGet.Versioning.dll|dependencies\System.Memory.dll|dependencies\System.Runtime.CompilerServices.Unsafe.dll</S>
+          <S N="GUID">e4e0bda1-0703-44a5-b70d-8fe704cd0643</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">2.0</S>
+          <S N="CLRVersion">4.0.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\cl234\Documents\PowerShell\Modules\Microsoft.PowerShell.PSResourceGet\1.0.5</S>
+    </MS>
+  </Obj>
+</Objs>
