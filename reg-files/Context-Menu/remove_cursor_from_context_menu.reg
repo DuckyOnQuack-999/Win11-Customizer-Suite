@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Remove "Open Folder as Cursor Project" from right-click ON a folder
+[-HKEY_CLASSES_ROOT\Directory\shell\cursor]
+
+; Remove "Open Folder as Cursor Project" from right-click INSIDE a folder
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\cursor]
+
+; Remove "Edit with Cursor" from right-click on files
+[-HKEY_CLASSES_ROOT\*\shell\Open with Cursor]
