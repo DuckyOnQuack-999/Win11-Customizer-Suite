@@ -1,0 +1,195 @@
+​/* ---- Global Styling Enhancements ---- */
+body {
+    background-color: #121212 !important; /* Rich true black for deep contrast */
+    color: #ffffff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.5s, color 0.5s; /* Smooth global color changes */
+}
+
+/* ---- Acrylic Sidebar with Enhanced Blur and Transparency ---- */
+div[class*="sidebar"] {
+    backdrop-filter: blur(30px) saturate(1.8); /* Enhanced blur and saturation for acrylic effect */
+    background: rgba(25, 25, 25, 0.6); /* More transparent */
+    border-right: 2px solid rgba(255, 0, 0, 0.2);
+    transition: all 0.5s ease; /* Smoother transitions */
+    width: 280px;
+}
+
+/* Sidebar Responsive Adaptation */
+@media (max-width: 768px) {
+    div[class*="sidebar"] {
+        width: 0;
+        overflow: hidden;
+        transition: width 0.5s ease;
+    }
+}
+
+/* ---- Navigation Links Hover and Active Effects ---- */
+a.group.flex.h-10.items-center.gap-2.5.rounded-lg.font-normal {
+    color: #b3b3b3;
+    background: rgba(40, 40, 40, 0.7);
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a.group.flex.h-10.items-center.gap-2.5.rounded-lg.font-normal:hover,
+a.group.flex.h-10.items-center.gap-2.5.rounded-lg.font-normal:focus {
+    background: rgba(70, 0, 0, 0.7); /* Darker red on hover */
+    color: #ffffff;
+    text-shadow: 0 0 12px rgba(255, 0, 0, 0.8);
+    transform: scale(1.05); /* Subtle zoom for better feedback */
+}
+
+/* ---- Acrylic Chat Container ---- */
+div[class*="chat"] {
+    backdrop-filter: blur(30px) saturate(1.6); /* Enhanced blur for acrylic effect */
+    background: rgba(20, 20, 20, 0.8); /* Slightly more transparency */
+    padding: 20px;
+    color: #e0e0e0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    border-radius: 10px;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+/* Responsive Chat Container */
+@media (max-width: 768px) {
+    div[class*="chat"] {
+        padding: 15px;
+        border-radius: 8px;
+    }
+}
+
+/* ---- Polished Header with Red Accent ---- */
+div.sticky {
+    backdrop-filter: blur(10px);
+    background: rgba(30, 0, 0, 0.85);
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+    padding: 15px 25px;
+    animation: glowBorderRed 2.5s infinite alternate;
+    transition: background 0.4s, box-shadow 0.4s;
+}
+
+/* ---- Chat Bubble Styles ---- */
+div[class*="message"] {
+    backdrop-filter: blur(10px);
+    background: rgba(45, 45, 45, 0.85);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    color: #f0f0f0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    animation: elevateSmooth 4s infinite alternate ease-in-out;
+}
+
+/* ---- Input Fields with Refined Acrylic Look ---- */
+input[type="text"] {
+    backdrop-filter: blur(8px);
+    background: rgba(30, 30, 30, 0.8);
+    color: #ffffff;
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+/* ---- Button Styles with Subtle Effects ---- */
+button {
+    backdrop-filter: blur(6px);
+    background: rgba(55, 0, 0, 0.6);
+    color: #ffffff;
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(80, 0, 0, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+    transform: translateY(-3px);
+    animation: pulse 1.5s infinite alternate; /* Added pulse effect on hover */
+}
+
+/* ---- Scrollbar Styles ---- */
+div[class*="scroll-container"] {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 0, 0, 0.6) rgba(25, 25, 25, 0.4);
+    transition: scrollbar-color 0.3s;
+}
+
+div[class*="scroll-container"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+div[class*="scroll-container"]::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* ---- Code Block Styling Enhancements ---- */
+.code-box {
+    background-color: #121212; /* Deep black background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px; /* Increased padding for space around the code */
+    width: 100%; /* Full width of the container */
+    max-width: 800px; /* Maximum width for larger displays */
+    height: auto; /* Adjusts height based on content */
+    font-size: 1.1em; /* Slightly larger font size for readability */
+    border-radius: 12px; /* Rounded corners */
+    overflow-x: auto; /* Enables horizontal scrolling for long lines */
+    margin: 20px auto; /* Centers the code block and adds vertical space */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .code-box {
+        font-size: 1em; /* Adjusts font size for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* ---- Keyframes for Elevation Animation ---- */
+@keyframes elevateSmooth {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-4px);
+    }
+}
+
+/* ---- Glow Animation for Headers ---- */
+@keyframes glowBorderRed {
+    0% {
+        border-bottom-color: #ff0000;
+    }
+    100% {
+        border-bottom-color: #e0e0e0;
+    }
+}
+
+/* ---- Pulse Animation for Button Hover Effect ---- */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+    }
+}
