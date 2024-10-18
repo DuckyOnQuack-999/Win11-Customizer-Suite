@@ -13,6 +13,7 @@
 > **Win11 Customizer Suite** is the ultimate toolkit for tweaking, personalizing, and boosting the performance of your Windows 11 experience.
 
 ---
+(This list isnt 100% up to date things get removed and added all the time)
 
 ## 🗂️ Project Structure
 
