@@ -1,0 +1,91 @@
+
+/* Cursor Animation with Gradient Trail */
+@keyframes cursor-trail {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 69, 58, 1), 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(255, 69, 58, 0.6), 0 0 30px rgba(255, 0, 0, 0.2);
+    }
+}
+
+/* Active Line Highlight Animation */
+@keyframes active-line-fade {
+    0% {
+        background-color: rgba(255, 69, 58, 0.05);
+    }
+    100% {
+        background-color: rgba(255, 69, 58, 0.1);
+    }
+}
+
+/* Command Palette Open Animation */
+@keyframes palette-float {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Suggestions Box Float Animation */
+@keyframes float-effect {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+    50% {
+        transform: translateY(-2px) translateX(1px);
+    }
+    100% {
+        transform: translateY(2px) translateX(-1px);
+    }
+}
+
+/* Active Tab Pulse Animation */
+@keyframes active-tab-pulse {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 69, 58, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 69, 58, 0.6);
+    }
+}
+
+/* Sidebar Background Animation */
+@keyframes sidebar-gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Notification Bounce Animation */
+@keyframes notification-bounce {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Title Bar Glow Animation */
+@keyframes titlebar-glow {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 69, 58, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(255, 69, 58, 0.5);
+    }
+}
