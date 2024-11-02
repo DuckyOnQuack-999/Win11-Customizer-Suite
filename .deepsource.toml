@@ -1,0 +1,27 @@
+version = 1
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "ember",
+    "angularjs",
+    "meteor",
+    "angular"
+  ]
+  environment = ["nodejs"]
+
+[[analyzers]]
+name = "shell"
